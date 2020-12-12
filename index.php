@@ -142,10 +142,7 @@
              
           }
           if ($current_page!=$number_of_page){
-            $current_page = $_GET['page'];
             echo ' <a href="index.php?page='.($current_page+1).'"><li>Next</li></a>';
-          }else {
-            $current_page = 1;
           }
         ?>
       </ul>

@@ -124,7 +124,7 @@
       
 
       <?php 
-      $sql = "SELECT * FROM comments WHERE post_id = ".$post_id ;
+      $sql = "SELECT * FROM comments WHERE post_id = ".$post_id." ORDER BY id DESC " ;
       $comments = $conn->query($sql);
 
       while($comment = $comments->fetch_assoc()) {
