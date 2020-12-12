@@ -12,7 +12,7 @@
   <body>
   <header class="o-box c-site-header">
   <nav class="o-max-width c-site-nav">
-    <a class="c-site-nav__link c-site-nav__wordmark" href="/">Anonim </a>
+    <a class="c-site-nav__link c-site-nav__wordmark" href="/">Anonym Notes </a>
     <ul class="u-no-margin u-no-padding c-site-nav__list">
       <li class="c-site-nav__item"><a class="c-site-nav__link" href="about.php">About the project</a></li>
       <li class="c-site-nav__item"><a class="c-site-nav__link" href="contact.php">Contact us</a></li>
