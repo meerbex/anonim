@@ -1,11 +1,20 @@
 
 
 <?php
-  require ('header.php');
+  require ('parts/header.php');
 ?>
 
 
 <main class="o-max-width o-site-main">
+<?php 
+  if (isset($_GET['msg'])){
+    if ($_GET['msg']=='success'){
+    echo '<div class="alert success"><p> Post created successfully </p></div>';
+  }
+  }
+?>
+
+
 <?php
   $servername = "localhost";
   $username = "root";
@@ -169,5 +178,5 @@
 
 </main>
 <?php
-  require ('footer.php');
+  require ('parts/footer.php');
 ?>

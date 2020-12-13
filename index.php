@@ -1,7 +1,7 @@
 
 
 <?php
-  require ('header.php');
+  require ('parts/header.php');
 ?>
 
 <main class="o-max-width o-site-main">
@@ -9,15 +9,15 @@
   <div class="carousel-cell" style="background-image:url(https://68.media.tumblr.com/57836ee52bc9355ad7c5fed5abf91ccc/tumblr_oiboo6MaRS1slhhf0o1_1280.jpg);">
     <div class="overlay"></div>
     <div class="inner">
-      <h3 class="subtitle">Anonim</h3>
-      <h2 class="title">Share your great thoughts</h2>
+      <h3 class="subtitle">The Only Platform Where You can be 100% Anonymous. No Login required & No Ip Tracing</h3>
+      <h2 class="title"></h2>
       <a href="form.php" target="_blank" class="btn">Tell us more</a>
     </div>
   </div>
 <div class="carousel-cell" style="background-image:url(https://68.media.tumblr.com/c40636a5a0d4aa39c335c8db40d2144f/tumblr_omc7z7Xv8N1slhhf0o1_1280.jpg);">
     <div class="overlay"></div>
     <div class="inner">
-      <h3 class="subtitle">Anonim</h3>
+      <h3 class="subtitle">Anonym Notes</h3>
       <h2 class="title">Your opiniion is important</h2>
       <a href="form.php" target="_blank" class="btn">Start writing</a>
     </div>
@@ -25,7 +25,7 @@
 <div class="carousel-cell" style="background-image:url(https://68.media.tumblr.com/3beb13a4167aa8b5c4743eac17bf351c/tumblr_o8nyvtiHfC1slhhf0o1_1280.jpg);">
     <div class="overlay"></div>
     <div class="inner">
-      <h3 class="subtitle">Anonim</h3>
+      <h3 class="subtitle">Anonym Notes</h3>
       <h2 class="title">Your thoughts mater</h2>
       <a href="form.php" target="_blank" class="btn">Share story</a>
     </div>
@@ -152,5 +152,5 @@
 </main>
 
 <?php
-  require ('footer.php');
+  require ('parts/footer.php');
 ?>

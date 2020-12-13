@@ -1,7 +1,7 @@
 
 
 <?php
-  require ('header.php');
+  require ('parts/header.php');
 ?>
 
 <main class="aboutMain">
@@ -11,6 +11,8 @@
 	<!-- Contact section - for containing contact details and contact form -->
 		<div class="contact" id="contact">
 			<h2 class="section-title">Contacts</h2>
+
+			<img src="img/GIF.gif" alt="Contacts" style=" border-radius: 25px; ">
 
 			<div class="contact-info">
 				<!-- Contact details -->
@@ -28,7 +30,7 @@
 				<!-- Contact form -->
 				<div class="contact-form">
                     <h1>You can e-mail us here</h1>
-					<form id="contact" method="POST" action="submitEmail.php">
+					<form id="contact" method="POST" action="submitContact.php">
 						
 						<p>
 							<input type="email" name="email" id="email" placeholder="Your e-mail" required>
@@ -51,5 +53,5 @@
 
 
 <?php
-  require ('footer.php');
+  require ('parts/footer.php');
 ?>
